@@ -8,7 +8,7 @@
 #check how  many multiples of 3 in 1000
 _sum_3 = 0
 
-index = 1000
+index = 999
 while index > 0:
     num1 = index % 3
     num2 = index % 5
