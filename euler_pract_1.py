@@ -8,15 +8,14 @@
 #check how  many multiples of 3 in 1000
 _sum_3 = 0
 
-index = 1000
+index = 999
 while index > 0:
     num1 = index % 3
     num2 = index % 5
     if num1 == 0 or num2 == 0:
-        print(index)
         _sum_3 = _sum_3 + index
     index = index -1
-print(f"Try to fix {_sum_3}")
+print(f"different approach {_sum_3}")
 
 
 def multiples():
@@ -26,8 +25,8 @@ def multiples():
 
             _sum += i
             
-    print(_sum) 
+    return _sum 
 #check how  many multiples of 5 in 1000
 
-multiples()
+print(multiples())
 #display multiples of 3 in 1000
